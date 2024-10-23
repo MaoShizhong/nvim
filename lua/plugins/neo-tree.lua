@@ -12,11 +12,10 @@ return {
   },
   opts = {
     filesystem = {
-      window = {
-        mappings = {
-          ['\\'] = 'close_window',
-        },
+      follow_current_file = {
+        enabled = true,
       },
     },
+    use_libuv_file_watcher = true,
   },
 }
