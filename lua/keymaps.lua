@@ -25,12 +25,6 @@ vim.keymap.set('n', '<C-l>', '<C-w><C-l>', { desc = 'Move focus to the right win
 vim.keymap.set('n', '<C-j>', '<C-w><C-j>', { desc = 'Move focus to the lower window' })
 vim.keymap.set('n', '<C-k>', '<C-w><C-k>', { desc = 'Move focus to the upper window' })
 
--- Neotree
-vim.keymap.set('n', '<leader>e', '<Cmd>Neotree toggle<CR>', { desc = 'Neotree [E]xplorer' })
-
--- Oil
-vim.keymap.set('n', '<leader>o', '<Cmd>Oil --float .<CR>', { desc = '[O]il' })
-
 -- [[ Basic Autocommands ]]
 
 -- Highlight when yanking (copying) text
